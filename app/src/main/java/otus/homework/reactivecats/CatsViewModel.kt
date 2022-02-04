@@ -16,7 +16,7 @@ class CatsViewModel(
     private val localCatFactsGenerator: LocalCatFactsGenerator,
     private val context: Context
 ) : ViewModel() {
-
+//
     private val _catsLiveData = MutableLiveData<Result>()
     val catsLiveData: LiveData<Result> = _catsLiveData
     private val disposable = CompositeDisposable()
